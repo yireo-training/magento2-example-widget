@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget id="example" class="Yireo\ExampleWidget\Block\Example" is_email_compatible="true"
+            placeholder_image="Magento_Cms::images/widget_page_link.png">
+        <label translate="true">Example</label>
+        <description translate="true">Silly little example</description>
+        <parameters>
+            <parameter name="id" xsi:type="text">
+                <label translate="true">Some ID</label>
+            </parameter>
+            <parameter name="name" xsi:type="text">
+                <label translate="true">Some name</label>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>

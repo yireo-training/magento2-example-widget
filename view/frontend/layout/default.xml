@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:View/Layout:etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <block name="example_widget" class="Yireo\ExampleWidget\Block\Example" template="example.phtml" before="-">
+                <arguments>
+                    <argument name="id" xsi:type="number">42</argument>
+                    <argument name="name" xsi:type="string">Via the XML layout</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+    </body>
+</page>
